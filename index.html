@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WB2</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -28,5 +28,55 @@
         </div></a>
     </div>
     </header>
+    <section >
+      <div class="container">
+      <div class="contacts">
+        <div class="contacts__title">
+          <span class="title-bold">Заявка</span><br>на получение консультации
+        </div>
+        <form id="form-contact" method="POST" class="contact-form" autocomplete="off" enctype="multipart/form-data">
+ 
+       <div class="preloader"></div>
+       <p class="contact-form__message"></p>
+ 
+       <div class="contan">
+ 
+  <!-- Поле с именем -->
+    <div class="contact-form__input-wrapper contact-form__input-wrapper_name">
+     <input name="name" type="text" class="contact-form__input contact-form__input_name"
+           placeholder="Ваше имя">
+  </div>
+ 
+  <!-- Поле с телефоном -->
+  <div class="contact-form__input-wrapper contact-form__input-wrapper_phone">
+    <input name="email" type="email" class="contact-form__input contact-form__input_phone"
+           placeholder="Ваша почта">
+  </div>
+
+       </div>
+  <!-- Поле с комментарием -->
+ <div class="contact-form__input-wrapper_commentary">
+   <p><textarea rows="10" cols="20" placeholder="Комментарий" name="text" ></textarea></p>
+ </div>
+ 
+  <!--Поле с темой в письме-->
+  <input name="theme" type="hidden" class="contact-form__input contact-form__input_theme"
+         value="Заявка с сайта">
+ 
+  <!--Кнопка отправки формы-->
+  <div class="contact-form__button-div">
+  <button type="submit" class="contact-form__button"><p class="button_text">Отправить</p></button>
+  </div>
+ 
+</form>
+
+      </div>
+      </div>
+    </section>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="js/telegram-bot.js"></script>
+<?
+include ("php/sendMessage.php");
+?>
 </body>
 </html>

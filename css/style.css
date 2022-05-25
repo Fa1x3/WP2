@@ -32,7 +32,10 @@ body{
     margin-top: 8px;
     background-color: rgb(255, 255, 255);
 }
-
+.container {
+  width: 1337px;
+  margin: 0 auto;
+}
 header{
     width: 100%;
     height: 124px;
@@ -63,3 +66,62 @@ nav ul{
     height: 38px;
     background-color: #FF9900;
 }
+
+/* Form */
+.contacts__title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 300;
+}
+.title-bold {
+  font-size: 64px;
+  font-weight: 600;
+}
+.contan {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 31px;
+}
+.contact-form__input-wrapper input {
+  width: 415px;
+  height: 56px;
+  background-color:rgba(243, 244, 246, 0.5);
+  border-radius: 8px;
+  padding-left: 10px;
+  font-size: 24px;
+}
+::placeholder {
+  color: #808080;
+  font-weight: 300;
+}
+.contact-form__input-wrapper_commentary {
+  text-align: center;  
+  padding-top:32px;
+}
+
+.contact-form__input-wrapper_commentary textarea{
+  width: 1100px;
+  height: 285px;
+  resize: none;
+  background-color: rgba(243,244,246, 0.5);
+  font-size: 24px;
+  border-radius: 8px;
+}
+.contact-form__button {
+  width: 224px;
+  height: 50px;
+  background-color: rgba(243, 244, 246, 0.5);
+  border-radius: 8px;
+}
+.contact-form__button p {
+  font-size: 24px;
+  font-weight: 600;
+  color: #808080;
+}
+
+.contact-form__button-div {
+  text-align: center;
+  padding-top: 16px;
+}
+
+
