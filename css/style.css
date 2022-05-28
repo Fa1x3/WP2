@@ -111,3 +111,205 @@ nav{
     width: 36px;
     position: absolute;
 }
+
+.container {
+    width: 1337px;
+    margin: 0 auto;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+.fast-request{
+    display: flex;
+    width: 1135px;
+    height: 371px;
+    line-height: 125%;
+    font-size: 96px;
+    justify-content: center;
+    align-items: center;
+}
+
+.front-back-ui-ux{
+    width: 683px;
+    height: 34px;
+    color: #FF9900;
+    line-height: 150%;
+    font-size: 40px;
+}
+
+.our-services{
+    margin-top: 377px;
+    font-weight: medium;
+    line-height: 150%;
+    font-size: 80px;
+}
+
+.site-development{
+    margin-top: 30px;
+    font-size: 24px;
+    line-height: 50%;
+}
+
+.mobile-development{
+    margin-top: 15px;
+    font-size: 24px;
+    line-height: 50%;
+}
+
+.ui-ux{
+    margin-top: 15px;
+    font-size: 24px;
+    line-height: 50%;
+}
+
+.site-development-block{
+    margin-top: 15px;
+    width: 1311px;
+    height: 515px;
+    border: black solid 1px;
+}
+
+.ui-ux-block{
+    margin-top: 13px;
+    width: 874px;
+    height: 515px;
+    border: black solid 1px;
+}
+
+.mobile-development-block{
+    margin-top: 13px;
+    width: 424px;
+    height: 515px;
+    margin-left: 13px;
+    border: black solid 1px;
+}
+
+.our-services-block{
+    display: flex;
+}
+
+.sdbt1{
+    position: absolute;
+    z-index: -1;
+    margin-top: 28px;
+    margin-left: 858px;
+    color: rgba(255, 153, 0, 0.4);
+    font-size: 40px;
+    font-weight: 700;
+    width: 424px;
+    height: 60px;
+    line-height: 150%;
+}
+
+.sdbt2{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 862px;
+    color: rgba(0, 0, 0);
+    font-size: 40px;
+    font-weight: 700;
+    width: 424px;
+    height: 60px;
+    line-height: 150%;
+}
+
+.sdbi{
+    margin-left: 20px;
+    margin-top: 371px;
+}
+
+.ui-ux1{
+    position: absolute;
+    z-index: -1;
+    margin-top: 28px;
+    margin-left: 29px;
+    color: rgba(255, 153, 0, 0.4);
+    font-size: 40px;
+    font-weight: 700;
+    width: 634px;
+    height: 60px;
+    line-height: 150%;
+}
+
+.ui-ux2{
+    margin-top: 25px;
+    margin-left: 25px;
+    color: rgba(0, 0, 0);
+    font-size: 40px;
+    font-weight: 700;
+    width: 634px;
+    height: 60px;
+    line-height: 150%;
+}
+
+.ui-ux-img{
+    margin-top: 286px;
+    margin-left: 20px;
+}
+
+.mdb1{
+    position: absolute;
+    z-index: -1;
+    margin-top: 28px;
+    margin-left: 122px;
+    color: rgba(255, 153, 0, 0.4);
+    font-size: 40px;
+    font-weight: 700;
+    width: 273px;
+    line-height: 150%;
+}
+
+.mdb2{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 126px;
+    color: rgba(0, 0, 0);
+    font-size: 40px;
+    font-weight: 700;
+    width: 273px;
+    line-height: 150%;
+}
+
+.mdbi{
+    margin-top: 371px;
+    margin-left: 20px;
+}
+
+.portfolio{
+    width: 1311px;
+    height: 929px;
+    margin-top: 358px;
+}
+
+.portfolio-text{
+    line-height: 125%;
+    font-size: 96px;
+}
+
+.portfolio-block{
+    margin-top: 41px;
+    width: 1311px;
+    height: 768px;
+    border: black solid 1px;
+}
+
+.feedback{
+    width: 1310px;
+    height: 647px;
+    margin-top: 257px;
+}
+
+.feedback-title{
+    line-height: 125%;
+    font-size: 64px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.feedback-title-second{
+    font-weight: 300;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
