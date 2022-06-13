@@ -16,8 +16,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 body{
     font-family: 'Inter', sans-serif;
-    height: 4800px;
-    width: 1920px;
 }
 
 ::-webkit-scrollbar{
@@ -25,7 +23,6 @@ body{
     margin-right: 2px;
 }
 ::-webkit-scrollbar-thumb{
-    border-radius: 10px;
     background-color: #FF9900;
 }
 
@@ -33,10 +30,7 @@ body{
     margin-top: 8px;
     background-color: rgb(255, 255, 255);
 }
-.container {
-  width: 1337px;
-  margin: 0 auto;
-}
+
 header{
     height: 124px;
     width: 1920px;
@@ -54,74 +48,78 @@ header{
     width: 207px;
     height: 38px;
     background-color: #FF9900;
-<<<<<<< HEAD
+    margin-top: 43px;
 }
 
 /* Form */
 .contacts__title {
-  text-align: center;
-  font-size: 36px;
-  font-weight: 300;
+    margin-top: 257px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    padding-top: 20px;
+  
 }
 .title-bold {
-  font-size: 64px;
-  font-weight: 600;
+    font-size: 64px;
+    font-weight: 600;
 }
 .contan {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 31px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 31px;
+}
+.contacts {
+    padding: 20px 0 20px 0;
 }
 .contact-form__input-wrapper input {
-  width: 415px;
-  height: 56px;
-  background-color:rgba(243, 244, 246, 0.5);
-  border-radius: 8px;
-  padding-left: 10px;
-  font-size: 24px;
+    width: 415px;
+    height: 56px;
+    background-color:rgba(243, 244, 246, 0.5);
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 24px;
 }
 ::placeholder {
-  color: #808080;
-  font-weight: 300;
+    color: #808080;
+    font-weight: 300;
 }
 .contact-form__input-wrapper_commentary {
-  text-align: center;  
-  padding-top:32px;
+    text-align: center;  
+    padding-top:32px;
 }
 
 .contact-form__input-wrapper_commentary textarea{
-  width: 1100px;
-  height: 285px;
-  resize: none;
-  background-color: rgba(243,244,246, 0.5);
-  font-size: 24px;
-  border-radius: 8px;
+    padding: 20px;
+    width: 1100px;
+    height: 285px;
+    resize: none;
+    background-color: rgba(243,244,246, 0.5);
+    font-size: 24px;
+    border-radius: 8px;
 }
 .contact-form__button {
-  width: 224px;
-  height: 50px;
-  background-color: rgba(243, 244, 246, 0.5);
-  border-radius: 8px;
+    width: 224px;
+    height: 50px;
+    background-color: rgba(243, 244, 246, 0.5);
+    border-radius: 8px;
 }
 .contact-form__button p {
-  font-size: 24px;
-  font-weight: 600;
-  color: #808080;
+    font-size: 24px;
+    font-weight: 600;
+    color: #808080;
 }
 
 .contact-form__button-div {
-  text-align: center;
-  padding-top: 16px;
+    text-align: center;
+    padding-top: 16px;
 }
 
 
-=======
-    margin-top: 43px;
-}
 
 nav{
     display: flex;
-    margin: 0px 305px 0px 304px;
+    justify-content: space-around;
 }
 
 .head{
@@ -151,7 +149,6 @@ nav{
     justify-content: center;
     font-weight: medium;
     font-size: 36px;
-    padding: 4%;
 }
 
 .burgir-line1{
@@ -176,10 +173,10 @@ nav{
     width: 36px;
     position: absolute;
 }
-<<<<<<< HEAD
+
 
 .container {
-    width: 1337px;
+    max-width: 1337px;
     margin: 0 auto;
     padding-left: 13px;
     padding-right: 13px;
@@ -193,14 +190,6 @@ nav{
     font-size: 96px;
     justify-content: center;
     align-items: center;
-}
-
-.front-back-ui-ux{
-    width: 683px;
-    height: 34px;
-    color: #FF9900;
-    line-height: 150%;
-    font-size: 40px;
 }
 
 .our-services{
@@ -228,136 +217,6 @@ nav{
     line-height: 50%;
 }
 
-.site-development-block{
-    margin-top: 15px;
-    width: 1311px;
-    height: 515px;
-    border: black solid 1px;
-}
-
-.ui-ux-block{
-    margin-top: 13px;
-    width: 874px;
-    height: 515px;
-    border: black solid 1px;
-}
-
-.mobile-development-block{
-    margin-top: 13px;
-    width: 424px;
-    height: 515px;
-    margin-left: 13px;
-    border: black solid 1px;
-}
-
-.our-services-block{
-    display: flex;
-}
-
-.sdbt1{
-    position: absolute;
-    z-index: -1;
-    margin-top: 28px;
-    margin-left: 858px;
-    color: rgba(255, 153, 0, 0.4);
-    font-size: 40px;
-    font-weight: 700;
-    width: 424px;
-    height: 60px;
-    line-height: 150%;
-}
-
-.sdbt2{
-    position: absolute;
-    margin-top: 25px;
-    margin-left: 862px;
-    color: rgba(0, 0, 0);
-    font-size: 40px;
-    font-weight: 700;
-    width: 424px;
-    height: 60px;
-    line-height: 150%;
-}
-
-.sdbi{
-    margin-left: 20px;
-    margin-top: 371px;
-}
-
-.ui-ux1{
-    position: absolute;
-    z-index: -1;
-    margin-top: 28px;
-    margin-left: 29px;
-    color: rgba(255, 153, 0, 0.4);
-    font-size: 40px;
-    font-weight: 700;
-    width: 634px;
-    height: 60px;
-    line-height: 150%;
-}
-
-.ui-ux2{
-    margin-top: 25px;
-    margin-left: 25px;
-    color: rgba(0, 0, 0);
-    font-size: 40px;
-    font-weight: 700;
-    width: 634px;
-    height: 60px;
-    line-height: 150%;
-}
-
-.ui-ux-img{
-    margin-top: 286px;
-    margin-left: 20px;
-}
-
-.mdb1{
-    position: absolute;
-    z-index: -1;
-    margin-top: 28px;
-    margin-left: 122px;
-    color: rgba(255, 153, 0, 0.4);
-    font-size: 40px;
-    font-weight: 700;
-    width: 273px;
-    line-height: 150%;
-}
-
-.mdb2{
-    position: absolute;
-    margin-top: 25px;
-    margin-left: 126px;
-    color: rgba(0, 0, 0);
-    font-size: 40px;
-    font-weight: 700;
-    width: 273px;
-    line-height: 150%;
-}
-
-.mdbi{
-    margin-top: 371px;
-    margin-left: 20px;
-}
-
-.portfolio{
-    width: 1311px;
-    height: 929px;
-    margin-top: 358px;
-}
-
-.portfolio-text{
-    line-height: 125%;
-    font-size: 96px;
-}
-
-.portfolio-block{
-    margin-top: 41px;
-    width: 1311px;
-    height: 768px;
-    border: black solid 1px;
-}
 
 .feedback{
     width: 1310px;
@@ -379,6 +238,177 @@ nav{
     display: flex;
     justify-content: center;
 }
-=======
->>>>>>> 16b7366069bedf388339dfdcb2f0dab4944f29b2
->>>>>>> 8f177dc6de449f13e3abd86a0856106cf4b18f5b
+
+.order-button span{
+    height: 36px;
+    align-items: center;
+}
+
+.ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul,li{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.service li{
+    display: inline-block;
+    position: relative;
+}
+
+.service li:nth-child(3){
+    margin-top: 13px;
+    margin-left: 9px;
+}
+
+.spans{
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    text-align: center;
+    display: none;
+    text-transform: uppercase;
+    line-height: 150%;
+    letter-spacing: 5px;
+}
+
+.service li:hover .spans{
+    display: block;
+    opacity: 0.95;
+}
+
+.span1{
+    display: block;
+}
+
+.card1 .spans  p{
+    margin-top: 44px;
+}
+
+.card2 .spans p{
+    margin-top: 50px;
+}
+
+.card3 .spans p{
+    margin-top: 42px;
+}
+
+.service{
+    margin-bottom: 358px;
+    margin-top: 15px;
+}
+
+.front-back-ui-ux{
+    width: 683px;
+    height: 34px;
+    color: #FF9900;
+    line-height: 150%;
+    font-size: 40px;
+}
+
+.portfolio{
+    width: 1311px;
+    height: 929px;
+}
+
+.portfolio span{
+    display: block;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 120px;
+}
+
+.portfolio-slider{
+    width: 1311px;
+    height: 768px;
+    margin-top: 41px;
+}
+
+.owl-carousel{
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.owl-carousel div img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+footer{
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 1920px;
+    height: 323px;
+    margin-top: 123px;
+    background-color: #D9D9D9;
+}
+
+footer img{
+    padding-top: 2.5px;
+}
+
+.telegram{
+    margin-top: 93px;
+    margin-left: 487px;
+    position: absolute;
+}
+
+.vkontakte img, .vk-group img{
+    padding-top: 6px;
+}
+
+.vkontakte{
+    margin-left: 487px;
+    position: absolute;
+    margin-top: 160px;
+}
+
+.whatsapp{
+    position: absolute;
+    margin-top: 93px;
+    margin-left: 895px;
+}
+
+.viber{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 895px;
+}
+
+.vk-group{
+    position: absolute;
+    margin-top: 93px;
+    margin-left: 1303px;
+}
+
+.mail{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 1303px;
+}
+
+.designed{
+    line-height: 150%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.designed span{
+    margin-top: 277px;
+}
+
+footer a{
+    color: black;
+}
