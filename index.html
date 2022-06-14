@@ -9,15 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <style>html {overflow-x: hidden;}</style>
 </head>
 <body>
     <header>
-       <div class="container">
         <nav>
-            <div class="header head">
+            <a href="#"><div class="burgir">
+                <div class="burgir-line1"></div>
+                <div class="burgir-line2"></div>
+                <div class="burgir-line3"></div>
+            </div></a>
+            <div class="head">
                 <ul>
                     <a href="#"><li>главная</li></a>
                     <a href="#"><li>услуги</li></a>
@@ -25,120 +27,60 @@
                     <a href="#"><li>контакты</li></a>
                 </ul>
             </div>
-            <a href="#contacts"><div class="order-button">
-                <span>заказать</span></a>
+            <div class="order-button">
+                <span>заказать</span>
             </div>
         </nav>
-       </div>
     </header>
-
-    <section>
-        <div class="container">
-            <div class="fast-request">Быстрые и удобные решения для каждого</div>
-            <div class="front-back-ui-ux">Front-End, Back-End, UI,UX</div>
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="our-services">Услуги</div>
-            <div class="site-development">Разработка сайта</div>
-            <div class="mobile-development">Мобильная разработка</div>
-            <div class="ui-ux">UI/UX</div>
-            <div class="service">
-                <ul>
-                    <li><div class="card1"><span class="spans"><p>Сделаем сайт, базируюясь на Ваших пожеланиях и наших умениях</p><span class="span1"><p>После покупки Вы получите:</p></span><p>-HTML + CSS файлы</p><span class="span1"><p>-Качественный и надеждный хостинг</p></span><span class="span1"><p>-Удобная система управления сайтом</p></span><span class="span1"><p>-Приоритет в тех.поддержке</p></span></span><img src="img/development.jpg" alt=""></li>
-                    <li><div class="card2"><span class="spans"><p>Разработаем дизайн для Вашего сайта или проекта, учитывая Ваши желания</p><span class="span1"><p>После покупки Вы получите:</p></span><span class="span1"><p>-Качественный дизайн</p></span><span class="span1"><p>-Возможность исправить то, что Вас не устраивает</p></span><span class="span1"><p>-Проект дизайна в Figma</p></span></span><img src="img/design.jpg" alt=""></div></li>
-                    <li><div class="card3"><span class="spans"><p>Разработаем нужное Вам мобильное приложение</p><span class="span1"><p>После покупки Вы получите:</p></span><span class="span1"><p>-Все необходимые файлы</p></span><span class="span1"><p>-Качественное приложение</p></span><span class="span1"><p>-Приоритет в тех.поддержке</p></span></span><img src="img/mobile.jpg" alt=""></div></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-            
-    <section>
-        <div class="container">
-            <div class="portfolio">
-                <span>Портфолио</span>
-                <div class="portfolio-slider">
-                    <div class="owl-carousel">
-                        <div><img src="img/p1.jpg" alt=""></div>
-                        <div><img src="img/p2.jpg" alt=""></div>
-                        <div><img src="img/p3.jpg" alt=""></div>
-                        <div><img src="img/p4.jpg" alt=""></div>
-                        <div><img src="img/p5.jpg" alt=""></div>
-                        <div><img src="img/p6.jpg" alt=""></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <section >
       <div class="container">
-      <div class="contacts" id="contacts">
+      <div class="contacts">
         <div class="contacts__title">
           <span class="title-bold">Заявка</span><br>на получение консультации
         </div>
-    <form id="form-contact" method="POST" class="contact-form" autocomplete="off" enctype="multipart/form-data" action="php/sendMessage.php">
-    <div class="preloader"></div>
+        <form id="form-contact" method="POST" class="contact-form" autocomplete="off" enctype="multipart/form-data">
+ 
+       <div class="preloader"></div>
        <p class="contact-form__message"></p>
-    <div class="contan">
-
-    <!-- Поле с именем -->
+ 
+       <div class="contan">
+ 
+  <!-- Поле с именем -->
     <div class="contact-form__input-wrapper contact-form__input-wrapper_name">
      <input name="name" type="text" class="contact-form__input contact-form__input_name"
            placeholder="Ваше имя">
-    </div>
-    <!-- Поле с телефоном -->
-    <div class="contact-form__input-wrapper contact-form__input-wrapper_phone">
+  </div>
+ 
+  <!-- Поле с телефоном -->
+  <div class="contact-form__input-wrapper contact-form__input-wrapper_phone">
     <input name="email" type="email" class="contact-form__input contact-form__input_phone"
            placeholder="Ваша почта">
-    </div>
-    </div>
-    <!-- Поле с комментарием -->
-    <div class="contact-form__input-wrapper_commentary">
-   <textarea rows="10" cols="20" placeholder="Комментарий" name="msg"></textarea>
-    </div>
-    <!--Кнопка отправки формы-->
-    <div class="contact-form__button-div">
-    <button type="submit" class="contact-form__button"><p class="button_text">Отправить</p></button>
-    </div>
-    </form>
-          </form>
+  </div>
+
+       </div>
+  <!-- Поле с комментарием -->
+ <div class="contact-form__input-wrapper_commentary">
+   <p><textarea rows="10" cols="20" placeholder="Комментарий" name="text" ></textarea></p>
+ </div>
+ 
+  <!--Поле с темой в письме-->
+  <input name="theme" type="hidden" class="contact-form__input contact-form__input_theme"
+         value="Заявка с сайта">
+ 
+  <!--Кнопка отправки формы-->
+  <div class="contact-form__button-div">
+  <button type="submit" class="contact-form__button"><p class="button_text">Отправить</p></button>
+  </div>
+ 
+</form>
+
       </div>
       </div>
     </section>
-    <footer>
-        <a href="#"><div class="telegram">
-            <span>Telegram</span>
-            <img src="img/tg-logo.png" alt="">
-        </div></a>
-        <a href="#"><div class="vkontakte">
-            <span>VK</span>
-            <img src="img/vk-logo.png" alt="">
-        </div></a>
-        <a href="#"><div class="whatsapp">
-            <span>Whatsapp</span>
-            <img src="img/wa-logo.png" alt="">
-        </div></a>
-        <a href="#"><div class="viber">
-            <span>Viber</span>
-            <img src="img/vb-logo.png" alt="">
-        </div></a>
-        <a href="#"><div class="vk-group">
-            <span>VK Group</span>
-            <img src="img/vk-logo.png" alt="">
-        </div>
-        <a href="#"><div class="mail">
-            <span>Mail</span>
-            <img src="img/ml-logo.png" alt="">
-        </div></a>
-        <div class="designed">
-            <span>Designed by maxfolderr. Since 2022</span>
-        </div>
-    </footer>
-    <script src="js/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/index.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/script.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="js/telegram-bot.js"></script>
+<?
+include ("php/sendMessage.php");
+?>
 </body>
 </html>
